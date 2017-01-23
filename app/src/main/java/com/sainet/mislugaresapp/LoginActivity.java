@@ -36,6 +36,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         try {
             FacebookSdk.sdkInitialize(getApplicationContext());
             setContentView(R.layout.activity_login);
+
             LoginButton loginButton = (LoginButton) findViewById(R.id.login_button);
             Button btnRegistroEmail = (Button) findViewById(R.id.btnRegitraEmail);
             TextView txtIniciaSesion = (TextView) findViewById(R.id.txtIniciarSesion);

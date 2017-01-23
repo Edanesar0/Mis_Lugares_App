@@ -29,6 +29,10 @@
     <string name="error_email">Los correos no coinciden</string>
     <string name="error_tamanio">La contraseña es muy corta</string>
     <string name="error_invalid_email">El email no  es valido</string>
-    <string name="Cerrar">Cerrar</string>
+    <string name="Cerrar">Cerrar Sesión</string>
     <string name="img">img</string>
+    <string name="msjErrorPermisos">Para poder utlizar la aplicacion se requieren todos los permisos</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nombre">Nombre</string>
+    <string name="imagen">Imagen</string>
 </resources>

@@ -38,6 +38,15 @@ public class RegistroEmailActivity extends AppCompatActivity implements View.OnC
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_email);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayShowTitleEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
         setSupportActionBar(toolbar);
         txtTitulo = (TextView) findViewById(R.id.txtInicia);
         edtEmail = (EditText) findViewById(R.id.edt_correo);
